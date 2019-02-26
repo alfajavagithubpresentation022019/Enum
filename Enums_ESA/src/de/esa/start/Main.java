@@ -13,6 +13,8 @@ import static de.esa.sonne.PlanetImSonnensystem.*;
 public class Main {
 
 	public static void main(String[] args) {
+		
+		System.out.println("Test 1");
 		for (Planet p : Sonnensystem.ALLE_PLANETEN) {
 			System.out.println(p);
 		}
