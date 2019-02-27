@@ -16,10 +16,12 @@ public class Main {
 		
 		System.out.println("Test 1");
 		System.out.println("Test 2");
+		System.out.println("Test 1");
+		System.out.println("Test 2");
 		for (Planet p : Sonnensystem.ALLE_PLANETEN) {
 			System.out.println(p);
 		}
-		System.out.println("************************");
+
 		// values() gibt das Array aller Elemente der enum
 		for (PlanetImSonnensystem ps : PlanetImSonnensystem.values()) {
 			System.out.println(ps);
