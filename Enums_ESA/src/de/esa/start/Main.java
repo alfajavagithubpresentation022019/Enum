@@ -18,6 +18,7 @@ public class Main {
 		System.out.println("Test 2");
 		System.out.println("Test 1");
 		System.out.println("Test 2");
+		System.out.println("Version 4");
 		for (Planet p : Sonnensystem.ALLE_PLANETEN) {
 			System.out.println(p);
 		}
@@ -50,7 +51,7 @@ public class Main {
 		}
 		
 		System.out.println(PlanetImSonnensystem.values()[1 + 1].oberflaechenSchwerkraft()); //PlanetImSonnensystem.values() ist ein Array
-		// Übung out.println("Das klappt") als aufgabe auf Console
+		// Ãœbung out.println("Das klappt") als aufgabe auf Console
 		out.println("Das klappt");
 	}
 
