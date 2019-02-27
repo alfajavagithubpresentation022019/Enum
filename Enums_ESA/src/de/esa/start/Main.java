@@ -19,8 +19,7 @@ public class Main {
 		for (Planet p : Sonnensystem.ALLE_PLANETEN) {
 			System.out.println(p);
 		}
-		System.out.println("************************");
-		System.out.println("************************");
+
 		// values() gibt das Array aller Elemente der enum
 		for (PlanetImSonnensystem ps : PlanetImSonnensystem.values()) {
 			System.out.println(ps);
